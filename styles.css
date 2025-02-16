@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#presentation img {
+    max-width: 100%;
+    height: auto;
+}
+
+#services ul {
+    list-style: none;
+}
+
+#cta form {
+    display: flex;
+    flex-direction: column;
+}
+
+#cta label {
+    margin-top: 10px;
+}
+
+#cta input, #cta textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#cta button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #cta form {
+        align-items: center;
+    }
+}
